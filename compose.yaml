@@ -1,0 +1,6 @@
+﻿services:
+  stibbi:
+    image: stibbi
+    build:
+      context: .
+      dockerfile: Stibbi/Dockerfile
